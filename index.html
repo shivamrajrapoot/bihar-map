@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bihar District Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="bihar.css"/>
+</head>
+<body>
+  <header class="app-header">
+    <button id="sidebar-toggle-btn" aria-label="Open district list">☰</button>
+    <span id="map-title-label">BIHAR</span>
+  </header>
+  <main class="main-content">
+    <nav class="district-sidebar" id="district-sidebar">
+      <h2>Districts of Bihar</h2>
+      <ul id="district-list"></ul>
+    </nav>
+    <div id="bihar-map"></div>
+    <div id="district-detail-panel"></div>
+  </main>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="bihar.js"></script>
+</body>
+</html>

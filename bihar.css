@@ -1,0 +1,196 @@
+:root {
+  --sidebar-width: 250px;
+  --header-height: 56px;
+  --primary-bg: #eaeaea;
+  --main-bg: #f8f8f8;
+  --accent: #1a73e8;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--primary-bg);
+  height: 100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  background: #000000;
+  color: white;
+  border-bottom: 2px solid #FFD700;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2002;
+  width: 100vw;
+}
+
+#sidebar-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0 16px 0 8px;
+  cursor: pointer;
+  display: none;
+  z-index: 2010;
+}
+
+#map-title-label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.main-content {
+  display: flex;
+  height: calc(100vh - var(--header-height));
+}
+
+.district-sidebar {
+  width: var(--sidebar-width);
+  background: #000000;
+  border-right: 2px solid #FFD700;
+  padding: 16px 8px 8px 18px;
+  overflow-y: auto;
+  z-index: 2001;
+  transition: transform 0.3s cubic-bezier(.77,0,.175,1), box-shadow 0.3s;
+  box-shadow: 1px 0 8px rgba(0,0,0,0.05);
+}
+
+.district-sidebar h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+#district-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#district-list li {
+  padding: 10px 8px;
+  margin-bottom: 7px;
+  background: #eef1f5;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.25s;
+  user-select: none;
+}
+#district-list li:active, #district-list li:hover {
+  background: #4c82b2;
+}
+
+#bihar-map {
+  background: #292929;
+  flex: 1;
+  min-width: 0;
+  height: 100%;   /* FIXED: Fill parent */
+}
+
+.district-popup {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  border: 1px solid #FFD700;
+  padding: 16px 16px 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #fff;
+  width: 320px;
+  z-index: 2003;
+  max-width: 95vw;
+  max-height: 65vh;      /* popup will never be taller than 65% of viewport */
+  overflow-y: auto;      /* enable vertical scrolling if needed */
+}
+.district-popup .close-popup {
+  float: right;
+  font-size: 1.2em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #888;
+  margin-left: 10px;
+}
+
+#district-detail-panel {
+  display: none;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 900px) {
+  body, html {
+    background: var(--main-bg);
+  }
+  .main-content {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .district-sidebar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 85vw;
+    max-width: 360px;
+    height: calc(100vh - var(--header-height));
+    background: #000000;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 14px rgba(0,0,0,0.08);
+    z-index: 2009;
+    border-right: 1px solid #FFD700;
+    transition: transform 0.25s cubic-bezier(.77,0,.175,1), box-shadow 0.25s;
+    padding: 18px 10px 14px 20px;
+  }
+  .district-sidebar.open {
+    transform: translateX(0);
+    box-shadow: 2px 0 20px rgba(0,0,0,0.18);
+  }
+  #sidebar-toggle-btn {
+    display: block;
+  }
+  #bihar-map {
+    width: 100vw;
+    height: 48vh;
+    min-height: 220px;
+    z-index: 1;
+  }
+  .district-popup {
+    display: none;
+  }
+  #district-detail-panel {
+    display: block;
+    width: 100vw;
+    min-height: 44vh;
+    background: #292929;
+    color: #ffffff;
+    padding: 16px 20px;
+    border-top: 2px solid #FFD700;
+    font-size: 1.08rem;
+    box-sizing: border-box;
+    z-index: 2008;
+    overflow-y: auto; 
+  }
+  #district-detail-panel h3 {
+    margin-top: 0.2em;
+    font-size: 1.2em;
+  }
+}
+
+/* Hide the detail panel on desktop */
+@media (min-width: 901px) {
+  #district-detail-panel {
+    display: none;
+  }
+}
