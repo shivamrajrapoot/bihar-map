@@ -1,0 +1,187 @@
+{
+  "Patna": {
+    "hq": "Patna",
+    "special": "Capital city; ancient Pataliputra; Mahatma Gandhi Setu; major educational hub (IIT, NIT, Patna University); Ganga river; Birthplace of Guru Gobind Singh.",
+    "famous": "Golghar, Kumhrar ruins, Takht Sri Harmandir Sahib, Patna Museum."
+  },
+  "Nalanda": {
+    "hq": "Bihar Sharif",
+    "special": "Ancient Nalanda University (UNESCO World Heritage); Ruins of Nalanda Mahavihara; Buddhist Circuit.",
+    "famous": "Rajgir, International Buddhist Conference, hot springs."
+  },
+  "Gaya": {
+    "hq": "Gaya",
+    "special": "Bodh Gaya\u2014place of Buddha\u2019s enlightenment (Mahabodhi Temple, UNESCO site); Vishnupad Temple; International tourism.",
+    "famous": "Pitrapaksha Mela, Falgu River."
+  },
+  "Muzaffarpur": {
+    "hq": "Muzaffarpur",
+    "special": "World-famous Shahi Litchi (GI Tag); Leechi Research Institute.",
+    "famous": "Jubba Sahni Park, Garib Sthan Mandir."
+  },
+  "Darbhanga": {
+    "hq": "Darbhanga",
+    "special": "Known as \u201cHeart of Mithilanchal\u201d; rich Maithili culture; Darbhanga Raj.",
+    "famous": "Raj Palace, Mithila painting."
+  },
+  "Bhagalpur": {
+    "hq": "Bhagalpur",
+    "special": "\u201cSilk City of India\u201d (Tussar silk); Vikramshila University ruins; River Ganga; Gangetic dolphin sanctuary.",
+    "famous": "Bhagalpur silk, Kuppaghat Ashram."
+  },
+  "Madhubani": {
+    "hq": "Madhubani",
+    "special": "Mithila/Madhubani Painting (world-famous art form, GI Tag); Maithil culture.",
+    "famous": "Kapileshwar Temple."
+  },
+  "Begusarai": {
+    "hq": "Begusarai",
+    "special": "\u201cIndustrial Capital of Bihar\u201d; Barauni Refinery, Thermal Power Station.",
+    "famous": "Kanwar Lake (Asia\u2019s largest freshwater oxbow lake)."
+  },
+  "Purnia": {
+    "hq": "Purnia",
+    "special": "Gateway to Northeast; major maize producer; known for alluvial soil.",
+    "famous": "Mata Puran Devi Mandir."
+  },
+  "Katihar": {
+    "hq": "Katihar",
+    "special": "Major railway junction; North-East link.",
+    "famous": "Tea gardens (bordering Assam/West Bengal)."
+  },
+  "West Champaran ": {
+    "hq": "Bettiah",
+    "special": "Champaran Satyagraha by Gandhi ji (1917); Valmiki Tiger Reserve.",
+    "famous": "Bettiah #Raj, Valmikinagar."
+  },
+  "East Champaran (Motihari)": {
+    "hq": "Motihari",
+    "special": "Starting point of Gandhi\u2019s Champaran Movement.",
+    "famous": "Gandhi Sangrahalaya, Kesaria Stupa."
+  },
+  "Vaishali": {
+    "hq": "Hajipur",
+    "special": "World\u2019s first republic (Lichchhavi); Buddha delivered last sermon here; birthplace of Lord Mahavira.",
+    "famous": "Ashokan pillar, Vaishali Museum."
+  },
+  "Aurangabad": {
+    "hq": "Aurangabad",
+    "special": "Deo Surya Mandir, \u201cChittorgarh of Bihar\u201d.",
+    "famous": "Obra, Anugrah Narayan Road."
+  },
+  "Rohtas": {
+    "hq": "Sasaram",
+    "special": "Rohtasgarh Fort; Tomb of Sher Shah Suri.",
+    "famous": "Sher Shah Suri Masoleum."
+  },
+  "Buxar": {
+    "hq": "Buxar",
+    "special": "Battle of Buxar (1764, decisive for British in India); religious place\u2014Brahmarshi Vishwamitra\u2019s Tapobhumi.",
+    "famous": "Buxar Fort, Ramrekha Ghat."
+  },
+  "Saran (Chhapra)": {
+    "hq": "Chhapra",
+    "special": "Sonepur Cattle Fair (Asia\u2019s largest).",
+    "famous": "Sonepur Mela, literary personalities (Dr. Rajendra Prasad)."
+  },
+  "Gopalganj": {
+    "hq": "Gopalganj",
+    "special": "Birthplace of former CM Lalu Prasad Yadav.",
+    "famous": "Thave Durga Mandir."
+  },
+  "Siwan": {
+    "hq": "Siwan",
+    "special": "Home district of Dr. Rajendra Prasad, first President of India.",
+    "famous": "Hasanpura, Mehdar Dargah."
+  },
+  "Munger": {
+    "hq": "Munger",
+    "special": "Ancient gunsmithing; Yoga capital (Bihar School of Yoga); historical fort.",
+    "famous": "Munger Fort, Sita Kund."
+  },
+  "Saharsa": {
+    "hq": "Saharsa",
+    "special": "Flood-prone, Koshi river basin; Maithili region.",
+    "famous": "Kosi Project Barrage."
+  },
+  "Samastipur": {
+    "hq": "Samastipur",
+    "special": "Rajendra Agricultural University (Pusa).",
+    "famous": "Vidyapati Nagar."
+  },
+  "Madhepura": {
+    "hq": "Madhepura",
+    "special": "\u201cElectric loco factory\u201d by Indian Railways; prone to floods.",
+    "famous": "Singheshwar Sthan Temple."
+  },
+  "Supaul": {
+    "hq": "Supaul",
+    "special": "Koshi river, Indo-Nepal border district.",
+    "famous": "Kosi barrage, Triveni."
+  },
+  "Khagaria": {
+    "hq": "Khagaria",
+    "special": "Flood-prone; meets Ganga, Kosi, Gandak rivers.",
+    "famous": "Kali Mandir."
+  },
+  "Kishanganj": {
+    "hq": "Kishanganj",
+    "special": "Highest Muslim population % in Bihar; \u201cMini Assam\u201d due to tea gardens.",
+    "famous": "HarGauri Temple, Panj Peer Dargah."
+  },
+  "Araria": {
+    "hq": "Araria",
+    "special": "Indo-Nepal border; chronic floods.",
+    "famous": "Forbesganj, Raniganj."
+  },
+  "Sheohar": {
+    "hq": "Sheohar",
+    "special": "Smallest district by area; carved from Sitamarhi.",
+    "famous": "Devi Mandir."
+  },
+  "Sitamarhi": {
+    "hq": "Sitamarhi",
+    "special": "Birthplace of Sita (Ramayana); Indo-Nepal border.",
+    "famous": "Janki Mandir."
+  },
+  "Jehanabad": {
+    "hq": "Jehanabad",
+    "special": "Naxal-affected in past; central Bihar.",
+    "famous": "Barabar Caves (nearby)."
+  },
+  "Sheikhpura": {
+    "hq": "Sheikhpura",
+    "special": "Newest (formed in 1994); known for guava, betel (paan).",
+    "famous": "Girihinda Pahar."
+  },
+  "Lakhisarai": {
+    "hq": "Lakhisarai",
+    "special": "Ancient trade route; historic Ashok Dham.",
+    "famous": "Ashok Dham Temple."
+  },
+  "Jamui": {
+    "hq": "Jamui",
+    "special": "Forested; mineral rich (mica); Nagi Dam Bird Sanctuary.",
+    "famous": "Kali Mandir, Simultala."
+  },
+  "Nawada": {
+    "hq": "Nawada",
+    "special": "Home to Kakolat Falls; Buddhist influence (Pawapuri nearby).",
+    "famous": "Kakolat Waterfall."
+  },
+  "Banka": {
+    "hq": "Banka",
+    "special": "Mandar Hill (mythological site, Samudra Manthan); forested.",
+    "famous": "Mandar Parvat, Bounsi Mela."
+  },
+  "Kaimur": {
+    "hq": "Bhabua",
+    "special": "Kaimur hills, waterfalls, archaeological caves.",
+    "famous": "Mundeshwari Devi Temple (oldest functional temple in India)."
+  },
+  "Arwal": {
+    "hq": "Arwal",
+    "special": "Smallest by population; part of Magadh region.",
+    "famous": "Mahavir Mandir, Son river."
+  }
+}
